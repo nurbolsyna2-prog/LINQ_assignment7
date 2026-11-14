@@ -1,0 +1,10 @@
+id,name,category,quantity,unit_price_cents,reorder_level
+A100,USB-C Cable,Accessories,5,1250,20
+A101,Laptop Stand,Accessories,3,4500,10
+A102,Mouse Pad,Accessories,40,800,15
+E200,Monitor 27in,Electronics,2,24900,5
+E201,Webcam HD,Electronics,12,5900,10
+E202,Wireless Mouse,Electronics,4,2500,12
+S300,Notebook A5,Stationery,100,350,50
+S301,Gel Pen Blue,Stationery,8,150,40
+S302,Stapler,Stationery,15,990,10

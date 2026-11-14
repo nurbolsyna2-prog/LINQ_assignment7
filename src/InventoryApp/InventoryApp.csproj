@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\native\out\libinventory_native.so" Link="libinventory_native.so"
+             CopyToOutputDirectory="PreserveNewest" Condition="Exists('..\..\native\out\libinventory_native.so')" />
+    <Content Include="..\..\native\out\libinventory_native.dylib" Link="libinventory_native.dylib"
+             CopyToOutputDirectory="PreserveNewest" Condition="Exists('..\..\native\out\libinventory_native.dylib')" />
+    <Content Include="..\..\native\out\inventory_native.dll" Link="inventory_native.dll"
+             CopyToOutputDirectory="PreserveNewest" Condition="Exists('..\..\native\out\inventory_native.dll')" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+id,name,category,order_quantity,order_cost_cents,handling_fee_cents,total_cents,score
+S301,Gel Pen Blue,Stationery,32,4800,150,4950,321
+E200,Monitor 27in,Electronics,3,74700,1494,76194,279
+A100,USB-C Cable,Accessories,15,18750,375,19125,162
+A101,Laptop Stand,Accessories,7,31500,630,32130,115
+E202,Wireless Mouse,Electronics,8,20000,400,20400,105
